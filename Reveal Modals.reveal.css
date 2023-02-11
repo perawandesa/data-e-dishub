@@ -1,0 +1,119 @@
+			/*	--------------------------------------------------
+	Reveal Modals
+	-------------------------------------------------- */
+  
+  
+	.reveal-modal-bg { 
+		position: fixed; 
+		height: 100%;
+		width: 100%;
+		background: #000;
+		background: rgba(0,0,0,.8);
+		z-index: 100;
+		display: none;
+		top: 0;
+		left: 0; 
+		}
+	
+	.reveal-modal {
+      	box-sizing: border-box;
+      left: 0;
+	    margin: 0 auto;
+      	max-width: 62.5rem;
+      	right: 0;
+      	width: 80%;
+
+		visibility: hidden;
+		background: #eee url(modal-gloss.png) no-repeat -200px -80px;
+		position: absolute;
+		z-index: 101;
+		padding: 20px 30px 30px 30px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		-moz-box-shadow: 0 0 10px rgba(0,0,0,.4);
+		-webkit-box-shadow: 0 0 10px rgba(0,0,0,.4);
+		-box-shadow: 0 0 10px rgba(0,0,0,.4);
+		border:5px solid #999999;
+		}
+		
+	.reveal-modal.small 		{ width: 200px; margin-left: -140px;}
+	.reveal-modal.medium 		{ width: 400px; margin-left: -240px;}
+	.reveal-modal.large 		{ width: 600px; margin-left: -340px;}
+	.reveal-modal.xlarge 		{ width: 800px; margin-left: -440px;}
+	
+	.reveal-modal .close-reveal-modal {
+		font-size: 22px;
+		line-height: .5;
+		position: absolute;
+		top: 4px;
+		right: 4px;
+		color: #aaa;
+		text-shadow: 0 -1px 1px rbga(0,0,0,.6);
+		font-weight: bold;
+		cursor: pointer;
+		} 
+
+  @media only screen and (min-width: 40.0625em) {
+    .reveal-modal {
+      top: 6.25rem; } }
+  .reveal-modal.radius {
+    box-shadow: none;
+    border-radius: 3px; }
+  .reveal-modal.round {
+    box-shadow: none;
+    border-radius: 1000px; }
+  .reveal-modal.collapse {
+    padding: 0;
+    box-shadow: none; }
+  @media only screen and (min-width: 40.0625em) {
+    .reveal-modal.tiny {
+      left: 0;
+      margin: 0 auto;
+      max-width: 62.5rem;
+      right: 0;
+      width: 30%; } }
+  @media only screen and (min-width: 40.0625em) {
+    .reveal-modal.small {
+      left: 0;
+      margin: 0 auto;
+      max-width: 62.5rem;
+      right: 0;
+      width: 40%; } }
+  @media only screen and (min-width: 40.0625em) {
+    .reveal-modal.medium {
+      left: 0;
+      margin: 0 auto;
+      max-width: 62.5rem;
+      right: 0;
+      width: 60%; } }
+  @media only screen and (min-width: 40.0625em) {
+    .reveal-modal.large {
+      left: 0;
+      margin: 0 auto;
+      max-width: 62.5rem;
+      right: 0;
+      width: 70%; } }
+  @media only screen and (min-width: 40.0625em) {
+    .reveal-modal.xlarge {
+      left: 0;
+      margin: 0 auto;
+      max-width: 62.5rem;
+      right: 0;
+      width: 95%; } }
+  .reveal-modal.full {
+    height: 100vh;
+    height: 100%;
+    left: 0;
+    margin-left: 0 !important;
+    max-width: none !important;
+    min-height: 100vh;
+    top: 0; }
+    @media only screen and (min-width: 40.0625em) {
+      .reveal-modal.full {
+        left: 0;
+        margin: 0 auto;
+        max-width: 62.5rem;
+        right: 0;
+        width: 100%; } }
+	/*
