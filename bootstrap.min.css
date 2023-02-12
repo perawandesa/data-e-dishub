@@ -473,7 +473,7 @@ code {
   word-break: break-word;
 }
 
-a>code {
+a>max-contentcode {
   color: inherit;
 }
 
@@ -5865,6 +5865,7 @@ a.close.disabled {
   
 @media (max-width:320px) {
   .modal-dialog {
+    max-width: 68%;    
     max-height: 568px;
   }
   
@@ -6899,7 +6900,7 @@ a.bg-dark:focus,a.bg-dark:hover,button.bg-dark:focus,button.bg-dark:hover {
 .embed-responsive {
   position: relative;
   display: block;
-  width: max-content;
+  width: 100%;
   padding: 0;
   overflow: hidden; 
 }
