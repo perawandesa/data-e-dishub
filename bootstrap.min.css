@@ -6902,7 +6902,8 @@ a.bg-dark:focus,a.bg-dark:hover,button.bg-dark:focus,button.bg-dark:hover {
   display: block;
   width: 100%;
   padding: 0;
-  overflow: hidden; 
+  overflow: hidden;
+  height: 780px;
 }
 
 .embed-responsive::before {
