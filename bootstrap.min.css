@@ -6899,10 +6899,9 @@ a.bg-dark:focus,a.bg-dark:hover,button.bg-dark:focus,button.bg-dark:hover {
 .embed-responsive {
   position: relative;
   display: block;
-  width: 100%;
+  width: max-content;
   padding: 0;
-  overflow: hidden;
-  height: 540px;    
+  overflow: hidden; 
 }
 
 .embed-responsive::before {
