@@ -5853,18 +5853,12 @@ a.close.disabled {
   height: 50px;
   overflow: scroll;
 }
-
-         
-         
-         
-         
-         
-         
+      
 @media (min-width:576px) {
   .modal-dialog {
     max-width: 68%;
     margin: 1.75rem auto;
-    max-height: 100%    
+    max-height: 568px;    
   }
 
 
