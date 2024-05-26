@@ -5885,6 +5885,15 @@ a.close.disabled {
     max-height: 568px;
   }
  
+  .d-md-none {
+    display: none!important;
+  }
+  .d-none {
+    display: none!important;
+  }
+  .d-lg-block {
+    display: none!important;
+  }
 
 
   
@@ -6711,18 +6720,6 @@ a.bg-dark:focus,a.bg-dark:hover,button.bg-dark:focus,button.bg-dark:hover {
 .d-inline-flex {
   display: -ms-inline-flexbox!important;
   display: inline-flex!important;
-}
-
-@media (min-width:320px) {
-  .d-md-none {
-    display: none!important;
-  }
-  .d-none {
-    display: none!important;
-  }
-  .d-lg-block {
-    display: none!important;
-  }
 }
 
 @media (min-width:576px) {
