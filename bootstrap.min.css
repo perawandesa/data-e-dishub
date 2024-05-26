@@ -5867,7 +5867,7 @@ a.close.disabled {
 }
 
          
-  @media (max-width:576px) {
+  @media (max-width:575px) {
   .d-md-none {
     display: none!important;
   }
